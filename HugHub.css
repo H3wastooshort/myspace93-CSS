@@ -1,0 +1,58 @@
+body {
+  color: LightGray;
+  background: #222;
+  font-family: sans-serif;
+}
+
+a {
+  color: white;
+}
+
+button, input, textarea{
+  border: none;
+  padding: 5px;
+  color: LightGray;
+  background-color: #333;
+  margin: 2px;
+}
+
+h1, h2, h3, h4, h5, #add, #remove, #sMsg, #block, #report{
+  color: white;
+}
+
+h4, .boxHead, .rightHead{
+  background-color: #333;
+  color: White;
+  padding: 1px;
+}
+
+.box, .url{
+  background-color: #252525;
+  border: solid Gray 1px;
+  padding: 2px;
+}
+
+.tableLeft, .tableRight {
+  background-color: grey;
+  color: whitesmoke;
+}
+
+div#header, div#hSub{
+  border: none;
+  padding: 5px;
+  color: LightGray;
+  background-color: #444;
+  margin: 2px;
+}
+
+audio {
+  filter: grayscale(100%);
+}
+
+.tableRight img{
+  max-height: 256px;
+}
+
+#country::before {
+  content: "Made in ";
+}

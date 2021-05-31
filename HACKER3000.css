@@ -1,0 +1,194 @@
+*{cursor: url(https://hacker3000.cf/outrun-cursor1.png), auto; font-family: Consolas, Monospace, Arial;}
+
+body{background-color:black; background-image:url(https://hacker3000.cf/background.png); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: auto 100% cover; text-align: center; color:Lime;}
+
+a{color:magenta; cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;}
+
+button, input{color:magenta; cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto; background-color: rgba(0.1, 0.1, 0.1, 0.5); border: none;}
+
+h4 {background-color: rgba(0,0,0,0.5); text-align: center; color:Lime;}
+
+.boxHead, .rightHead{background-color:black; text-align: center; color:Lime;}
+
+.blurbs{color:green;}
+
+#userWall{background-color:black; text-align: center; color:Lime;}
+
+.tableRight{background-color:black; text-align: center; color:Lime;}
+
+.tableLeft{background-color:grey; text-align: center; color:green;}
+
+.player{background-color:black; text-align: center; color:green;}
+
+#controlBar{background-color:black; text-align: center; color:green;}
+
+.box {background-color: rgba(0, 0, 0, 0.3); color:Lime;}
+
+.boxButton{color:orange;}
+
+div#header{background-image: url(https://64.media.tumblr.com/b2dbfb13a03b9efecdfebfcde1d948e4/tumblr_owngzpR9zU1vsjcxvo1_540.gifv); background-color: black; background-position: center; background-repeat: no-repeat; background-size: cover;}
+
+div#hSub{background-color:black; background-image: linear-gradient(cyan, magenta); color:orange;}
+
+textarea{background-color:black; color:green;}
+
+body::after {
+content: "";
+display: block;
+position: fixed;
+left: -48px;
+top: -48px;
+width: calc(100% + 48px);
+height: calc(100% + 48px);
+background-image: url(https://assets.bigcartel.com/theme_images/39406789/stattico.gif);
+background-position: 0 0;
+background-size: cover;
+z-index: 10000000;
+pointer-events: none;
+opacity: 0.1;
+}
+
+#report, #block{position:relative; display: none;}
+
+div.url.box a {color: orange !important;}
+
+#country{font-size: 0px !important;}
+
+#country::after{font-size: 15px; content: "Nazi Land"}
+
+span#hUp::before{content: "NG Evangelion is cool i guess..."; font: bold 13px monospace; background-image: linear-gradient(cyan, magenta); -webkit-background-clip: text; -webkit-text-fill-color: transparent; cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), auto !important;}
+
+audio {
+    filter: hue-rotate(111deg) blur(0.5px);
+}
+
+img {
+    filter: blur(0.42px);
+}
+
+.url, .player {border: none;}
+
+
+.comments::before {content: "Comment formatting by utf-4096(id=45) standard supported."; background-color:black; text-align: center; color:Lime; font-size: 10px;}
+
+/* credit to utf-16 / utf-4096 */
+
+a[href^="#fmt_"] {
+    text-decoration: none;
+    pointer-events: none;
+    color: inherit;
+}
+
+a[href*="fmt_red"]      { color: #f44 }
+a[href*="fmt_yellow"]   { color: #ff4 }
+a[href*="fmt_green"]    { color: #4f4 }
+a[href*="fmt_cyan"]     { color: #4ff }
+a[href*="fmt_blue"]     { color: #44f }
+a[href*="fmt_magenta"]  { color: #f4f }
+
+@keyframes fmt_rainbow {
+    to {
+        background-position: 200px;
+    }
+}
+
+a[href*="fmt_rainbow"] {
+    background: linear-gradient(90deg, #f44, #ff4, #4f4, #4ff, #44f, #f4f, #44f, #4ff, #4f4, #ff4, #f44);
+    background-clip: text;
+    -o-background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200px;
+    color: #0000;
+    animation: fmt_rainbow 1.5s linear infinite;
+}
+
+a[href*="fmt_fixed"] {
+    background-attachment: fixed;
+}
+
+a[href*="fmt_cover"] {
+    background-size: cover;
+}
+
+@keyframes fmt_flash {
+    0% {
+        background: #ddf;
+        color: #55f;
+    }
+    
+    50% {
+        background: #55f;
+        color: #ddf;
+    }
+}
+
+a[href*="fmt_flash"] {
+    padding: 0 2px;
+    animation: fmt_flash steps(1) .7s infinite;
+}
+
+a[href*="fmt_tilt"] {
+    display: inline-block;
+    margin: 6px 0;
+    transform: rotate(6deg);
+}
+
+@keyframes fmt_togglecase {
+    to {
+        font-variant: small-caps;
+    }
+}
+
+a[href*="fmt_togglecase"] {
+    animation: fmt_togglecase .7s linear infinite;
+}
+
+a[href*="fmt_nopad"] {
+    padding: 0 !important;
+}
+
+
+p > a[href*="fmt_delay_inc"]:nth-of-type(1) { animation-delay: .1s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(2) { animation-delay: .2s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(3) { animation-delay: .3s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(4) { animation-delay: .4s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(5) { animation-delay: .5s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(6) { animation-delay: .6s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(7) { animation-delay: .7s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(8) { animation-delay: .8s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(9) { animation-delay: .9s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(10) { animation-delay: 1s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(11) { animation-delay: 1.1s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(12) { animation-delay: 1.2s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(13) { animation-delay: 1.3s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(14) { animation-delay: 1.4s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(15) { animation-delay: 1.5s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(16) { animation-delay: 1.6s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(17) { animation-delay: 1.7s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(18) { animation-delay: 1.8s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(19) { animation-delay: 1.9s }
+p > a[href*="fmt_delay_inc"]:nth-of-type(20) { animation-delay: 2s }
+
+
+a[href*="fmt_line_delay_1"] { animation-delay: .1s }
+a[href*="fmt_line_delay_2"] { animation-delay: .2s }
+a[href*="fmt_line_delay_3"] { animation-delay: .3s }
+a[href*="fmt_line_delay_4"] { animation-delay: .4s }
+a[href*="fmt_line_delay_5"] { animation-delay: .5s }
+a[href*="fmt_line_delay_6"] { animation-delay: .6s }
+a[href*="fmt_line_delay_7"] { animation-delay: .7s }
+a[href*="fmt_line_delay_8"] { animation-delay: .8s }
+a[href*="fmt_line_delay_9"] { animation-delay: .9s }
+a[href*="fmt_line_delay_10"] { animation-delay: 1s }
+a[href*="fmt_line_delay_11"] { animation-delay: 1.1s }
+a[href*="fmt_line_delay_12"] { animation-delay: 1.2s }
+a[href*="fmt_line_delay_13"] { animation-delay: 1.3s }
+a[href*="fmt_line_delay_14"] { animation-delay: 1.4s }
+a[href*="fmt_line_delay_15"] { animation-delay: 1.5s }
+a[href*="fmt_line_delay_16"] { animation-delay: 1.6s }
+a[href*="fmt_line_delay_17"] { animation-delay: 1.7s }
+a[href*="fmt_line_delay_18"] { animation-delay: 1.8s }
+a[href*="fmt_line_delay_19"] { animation-delay: 1.9s }
+a[href*="fmt_line_delay_20"] { animation-delay: 2s }
+
+/* credits end */

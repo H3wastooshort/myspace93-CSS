@@ -1,0 +1,37 @@
+body{
+  background-image:url( https://cdn.discordapp.com/attachments/832210698430971977/838511245304135680/9a9cc896be777db385aca8fce1311a08.jpg );
+  color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div#header {
+  background: linear-gradient(to right, indigo, purple)
+}
+
+div#hSub {
+  background: linear-gradient(to right, green, lime)
+}
+
+.rightHead, .boxHead, .boxInfo, .tableLeft, .tableRight, .player, textarea, button, input, .url, h4 {
+  background-color: rgba(0, 0, 0, 0.25);
+  border: solid rgba(0,0,0,0.1) 2px;
+  color: white;
+}
+ 
+#report, #sMsg, #add, #block {
+  color: white;
+}
+ 
+#avatar {
+  background-image: url(https://64.media.tumblr.com/b2dbfb13a03b9efecdfebfcde1d948e4/tumblr_owngzpR9zU1vsjcxvo1_540.gifv);
+  padding: 10px;
+  background-size: cover;
+  border: solid violet 2px;
+}
+
+#container {
+  background-color: rgba(0, 0, 0, 0.25);
+}

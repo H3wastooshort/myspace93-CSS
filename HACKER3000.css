@@ -68,8 +68,11 @@ img {
 
 .url, .player {border: none;}
 
-
 .comments::before {content: "Comment formatting by utf-4096(id=45) standard supported."; background-color:black; text-align: center; color:Lime; font-size: 10px;}
+
+img[src="https://mvc.penguins.win/red.png"] {
+    filter: hue-rotate(220deg);
+}
 
 /* credit to utf-16 / utf-4096 */
 

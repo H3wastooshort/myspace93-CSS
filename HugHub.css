@@ -56,3 +56,21 @@ audio {
 #country::before {
   content: "Made in ";
 }
+
+.url a{
+    font-size: 0px;
+}
+
+.url a::after {
+    font-size: initial;
+    content: "https://hughub.tk/";
+}
+
+.url b {
+  font-size: 0px;
+}
+
+.url b::after {
+    font-size: initial;
+    content: "Visit us at:";
+}

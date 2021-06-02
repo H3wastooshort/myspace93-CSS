@@ -74,3 +74,8 @@ audio {
     font-size: initial;
     content: "Visit us at:";
 }
+
+img[src = "https://hughub.tk/fake-ad.jpg"] {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+}

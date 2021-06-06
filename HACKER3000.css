@@ -1,36 +1,104 @@
-*{cursor: url(https://hacker3000.cf/outrun-cursor1.png), auto; font-family: Consolas, Monospace, Arial;}
+*{
+	cursor: url(https://hacker3000.cf/outrun-cursor1.png), auto;
+	font-family: Consolas, Monospace, Arial;
+}
 
-body{background-color:black; background-image:url(https://hacker3000.cf/background.png); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: auto 100% cover; text-align: center; color:Lime;}
+body{
+	background-color:black;
+	background-image:url(https://hacker3000.cf/background.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100% cover;
+	text-align: center;
+	color:Lime;
+}
 
-a{color:magenta; cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;}
+a{
+	color:magenta;
+	cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;
+}
 
-button, input{color:magenta; cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto; background-color: rgba(0.1, 0.1, 0.1, 0.5); border: none;}
+button, input{
+	color:magenta;
+	cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;
+	background-color: rgba(0.1, 0.1, 0.1, 0.5);
+	border: none;
+}
 
-h4 {background-color: rgba(0,0,0,0.5); text-align: center; color:Lime;}
+h4 {
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	color:Lime;
+}
 
-.boxHead, .rightHead{background-color:black; text-align: center; color:Lime;}
+.boxHead, .rightHead{
+	background-color:black;
+	text-align: center;
+	color:Lime;
+}
 
-.blurbs{color:green;}
+.blurbs{
+	color:green;
+}
 
-#userWall{background-color:black; text-align: center; color:Lime;}
+#userWall{
+	background-color:black;
+	text-align: center;
+	color:Lime;
+}
 
-.tableRight{background-color:black; text-align: center; color:Lime;}
+.tableRight{
+	background-color:black;
+	text-align: center;
+	color:Lime;
+}
 
-.tableLeft{background-color:grey; text-align: center; color:green;}
+.tableLeft{
+	background-color:grey;
+	text-align: center;
+	color:green;
+}
 
-.player{background-color:black; text-align: center; color:green;}
+.player{
+	background-color:black;
+	text-align: center;
+	color:green;
+}
 
-#controlBar{background-color:black; text-align: center; color:green;}
+#controlBar{
+	background-color:black;
+	text-align: center;
+	color:green;
+}
 
-.box {background-color: rgba(0, 0, 0, 0.3); color:Lime;}
+.box {
+	background-color: rgba(0, 0, 0, 0.3);
+	color:Lime;
+}
 
-.boxButton{color:orange;}
+.boxButton{
+	color:orange;
+}
 
-div#header{background-image: url(https://64.media.tumblr.com/b2dbfb13a03b9efecdfebfcde1d948e4/tumblr_owngzpR9zU1vsjcxvo1_540.gifv); background-color: black; background-position: center; background-repeat: no-repeat; background-size: cover;}
+div#header{
+	background-image: url(https://64.media.tumblr.com/b2dbfb13a03b9efecdfebfcde1d948e4/tumblr_owngzpR9zU1vsjcxvo1_540.gifv);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-div#hSub{background-color:black; background-image: linear-gradient(cyan, magenta); color:orange;}
+div#hSub{
+	background-color:black;
+	background-image: linear-gradient(cyan, magenta);
+	color:orange;
+}
 
-textarea{background-color:black; color:green;}
+textarea{
+	background-color:black;
+	color:green;
+}
 
 body::after {
 content: "";
@@ -48,38 +116,71 @@ pointer-events: none;
 opacity: 0.1;
 }
 
-#report, #block{position:relative; display: none;}
+#report, #block{
+	position:relative;
+	display: none;
+}
 
-div.url.box a {color: orange !important;}
+div.url.box a {
+	color: orange !important;
+}
 
-#country{font-size: 0px !important;}
+#country{
+	font-size: 0px !important;
+}
 
-#country::after{font-size: 15px; content: "Nazi Land"}
+#country::after{
+	font-size: 15px;
+	content: "Nazi Land";
+}
 
-span#hUp::before{content: "NG Evangelion is cool i guess..."; font: bold 13px monospace; background-image: linear-gradient(cyan, magenta); -webkit-background-clip: text; -webkit-text-fill-color: transparent; cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), auto !important;}
+span#hUp::before{
+	content: "NG Evangelion is cool i guess...";
+	font: bold 13px monospace;
+	background-image: linear-gradient(cyan, magenta);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), auto !important;
+}
 
 audio {
-    filter: hue-rotate(111deg) blur(0.5px);
+	   filter: hue-rotate(111deg) blur(0.5px);
 }
 
 img {
-    filter: blur(0.42px);
+	   filter: blur(0.42px);
 }
 
-.url, .player {border: none;}
+.url, .player {
+	border: none;
+}
 
-.comments::before {content: "Comment formatting by utf-4096(id=45) standard supported."; background-color:black; text-align: center; color:Lime; font-size: 10px;}
+.comments::before {
+	content: "Comment formatting by utf-4096(id=45) standard supported.";
+	background-color:black;
+	text-align: center;
+	color:Lime;
+	font-size: 10px;
+}
+
+.extended h3 {
+	 font-size: 0px;
+}
+
+.extended h3::after {
+	 content: "\\00000a" url(https://mvc.penguins.win/red.png);
+}
 
 img[src="https://mvc.penguins.win/red.png"] {
-    filter: hue-rotate(220deg);
+	   filter: hue-rotate(220deg);
 }
 
 /* credit to utf-16 / utf-4096 */
 
 a[href^="#fmt_"] {
-    text-decoration: none;
-    pointer-events: none;
-    color: inherit;
+	   text-decoration: none;
+	   pointer-events: none;
+	   color: inherit;
 }
 
 a[href*="fmt_red"]      { color: #f44 }
@@ -90,64 +191,64 @@ a[href*="fmt_blue"]     { color: #44f }
 a[href*="fmt_magenta"]  { color: #f4f }
 
 @keyframes fmt_rainbow {
-    to {
-        background-position: 200px;
-    }
+	   to {
+	       background-position: 200px;
+	   }
 }
 
 a[href*="fmt_rainbow"] {
-    background: linear-gradient(90deg, #f44, #ff4, #4f4, #4ff, #44f, #f4f, #44f, #4ff, #4f4, #ff4, #f44);
-    background-clip: text;
-    -o-background-clip: text;
-    -webkit-background-clip: text;
-    background-size: 200px;
-    color: #0000;
-    animation: fmt_rainbow 1.5s linear infinite;
+	   background: linear-gradient(90deg, #f44, #ff4, #4f4, #4ff, #44f, #f4f, #44f, #4ff, #4f4, #ff4, #f44);
+	   background-clip: text;
+	   -o-background-clip: text;
+	   -webkit-background-clip: text;
+	   background-size: 200px;
+	   color: #0000;
+	   animation: fmt_rainbow 1.5s linear infinite;
 }
 
 a[href*="fmt_fixed"] {
-    background-attachment: fixed;
+	   background-attachment: fixed;
 }
 
 a[href*="fmt_cover"] {
-    background-size: cover;
+	   background-size: cover;
 }
 
 @keyframes fmt_flash {
-    0% {
-        background: #ddf;
-        color: #55f;
-    }
-    
-    50% {
-        background: #55f;
-        color: #ddf;
-    }
+	   0% {
+	       background: #ddf;
+	       color: #55f;
+	   }
+	   
+	   50% {
+	       background: #55f;
+	       color: #ddf;
+	   }
 }
 
 a[href*="fmt_flash"] {
-    padding: 0 2px;
-    animation: fmt_flash steps(1) .7s infinite;
+	   padding: 0 2px;
+	   animation: fmt_flash steps(1) .7s infinite;
 }
 
 a[href*="fmt_tilt"] {
-    display: inline-block;
-    margin: 6px 0;
-    transform: rotate(6deg);
+	   display: inline-block;
+	   margin: 6px 0;
+	   transform: rotate(6deg);
 }
 
 @keyframes fmt_togglecase {
-    to {
-        font-variant: small-caps;
-    }
+	   to {
+	       font-variant: small-caps;
+	   }
 }
 
 a[href*="fmt_togglecase"] {
-    animation: fmt_togglecase .7s linear infinite;
+	   animation: fmt_togglecase .7s linear infinite;
 }
 
 a[href*="fmt_nopad"] {
-    padding: 0 !important;
+	   padding: 0 !important;
 }
 
 

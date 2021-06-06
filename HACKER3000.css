@@ -164,11 +164,12 @@ img {
 }
 
 .extended h3 {
-	 font-size: 0px;
+	font-size: 0px;
 }
 
 .extended h3::after {
-	 content: "\\00000a" url(https://mvc.penguins.win/red.png);
+	content: "\\\\00000a" url(https://mvc.penguins.win/terminal.png);
+	filter: none;
 }
 
 img[src="https://mvc.penguins.win/red.png"] {

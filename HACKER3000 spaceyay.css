@@ -1,0 +1,137 @@
+*{
+	cursor: url(https://hacker3000.cf/outrun-cursor1.png), auto;
+	font-family: Consolas, Monospace, Arial;
+}
+
+body{
+	background-color:black;
+	background-image:url(https://hacker3000.cf/background.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	color:Lime;
+}
+
+a{
+	color:magenta;
+	cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;
+}
+
+button, input{
+	color:magenta;
+	cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;
+	background-color: rgba(0.1, 0.1, 0.1, 0.5);
+	border: none;
+}
+
+div.heading{
+	background-color: rgba(0,0,0,0.5) !important;
+	text-align: center;
+	color:Lime;
+}
+
+main {
+	background: rgba(0,0,0,0.1)
+}
+
+.boxHead, .rightHead{
+	background-color:black;
+	text-align: center;
+	color:Lime;
+}
+
+#userWall{
+	background-color:black;
+	text-align: center;
+	color:Lime;
+}
+
+.tableRight{
+	background-color:black;
+	text-align: center;
+	color:Lime;
+}
+
+.left{
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	color: lime;
+}
+
+#controlBar{
+	background-color:black;
+	text-align: center;
+	color:green;
+}
+
+.box, .blurbs, .url-info, .table-section, .contact, .friends, footer, td, .blog-preview, .comments-table, .comment-replies{
+	background-color: rgba(0, 0, 0, 0.25) !important;
+	color:Lime !important;
+	border: black 1px !important;
+}
+
+div.top{
+	background-image: url(https://64.media.tumblr.com/b2dbfb13a03b9efecdfebfcde1d948e4/tumblr_owngzpR9zU1vsjcxvo1_540.gifv);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.links {
+	background-color:black;
+	background-image: linear-gradient(cyan, magenta);
+	color:orange;
+	font-size: 0.95em;
+}
+
+textarea{
+	background-color:black;
+	color:green;
+}
+
+body::after {
+content: "";
+display: block;
+position: fixed;
+left: -48px;
+top: -48px;
+width: calc(100% + 48px);
+height: calc(100% + 48px);
+background-image: url(https://assets.bigcartel.com/theme_images/39406789/stattico.gif);
+background-position: 0 0;
+background-size: cover;
+z-index: 10000000;
+pointer-events: none;
+opacity: 0.1;
+}
+
+img {
+	   filter: blur(0.42px);
+}
+
+.profile-info::after { /* eyecancer */
+	content:
+		url(https://anlucas.neocities.org/site_best_viewed_with_monitor.gif)
+		url(https://anlucas.neocities.org/anydamn.gif)
+		url(https://anlucas.neocities.org/elec_but.gif)
+		url(https://anlucas.neocities.org/apocalypse_now.gif)
+		url(https://anlucas.neocities.org/emulate.gif)
+		url(https://anlucas.neocities.org/get.gif)
+		url(https://anlucas.neocities.org/getacomp.jpg)
+		url(https://anlucas.neocities.org/hatemac.jpg)
+		url(https://anlucas.neocities.org/hatems.jpg)
+		url(https://anlucas.neocities.org/html_learn_it_today.gif)
+		url(https://anlucas.neocities.org/ieisevil.gif)
+		url(https://anlucas.neocities.org/linuxnow.jpg)
+		url(https://anlucas.neocities.org/lynxnow.gif)
+		url(https://anlucas.neocities.org/nukeieani.gif)
+		url(https://anlucas.neocities.org/netscape_never.gif)
+		url(https://anlucas.neocities.org/piracy.gif)
+		url(https://anlucas.neocities.org/team_fortress_get_it.gif)
+		url(https://anlucas.neocities.org/best_viewed_with_eyes.gif)
+		url(https://anlucas.neocities.org/aol_sucks02.gif)
+		url(https://anlucas.neocities.org/vcss.gif);
+}

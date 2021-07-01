@@ -112,7 +112,7 @@ img {
 	   filter: blur(0.42px);
 }
 
-.profile-info::after { /* eyecancer */
+.col.left::after { /* eyecancer */
 	content:
 		url(https://anlucas.neocities.org/site_best_viewed_with_monitor.gif)
 		url(https://anlucas.neocities.org/anydamn.gif)

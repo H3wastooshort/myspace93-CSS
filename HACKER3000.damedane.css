@@ -50,16 +50,20 @@ h4 {
 	color:Lime;
 }
 
-.tableRight{
-	background-color:black;
-	text-align: center;
-	color:Lime;
+.commentAuthor,.commentContent {
+	border: 1px solid black !important;
 }
 
-.tableLeft{
-	background-color:grey;
-	text-align: center;
-	color:green;
+.commentContent {
+	background-color: rgba(0,0,0,.75) !important;
+	text-align: center !important;
+	color:Lime !important;
+}
+
+.commentAuthor {
+	background-color: rgba(0,0,0,.5) !important;
+	text-align: center !important;
+	color:green !important;
 }
 
 .player{
@@ -68,15 +72,10 @@ h4 {
 	color:green;
 }
 
-#controlBar{
-	background-color:black;
-	text-align: center;
-	color:green;
-}
-
-.box, .infotable td, .infotable th{
+.box, .infotable td, .infotable th {
 	background-color: rgba(0, 0, 0, 0.3);
 	color: Lime;
+	border: 1px solid black;
 }
 
 .boxButton{
@@ -119,25 +118,7 @@ pointer-events: none;
 opacity: 0.1;
 }
 
-#report, #block{
-	position:relative;
-	display: none;
-}
-
-div.url.box a {
-	color: orange !important;
-}
-
-#country{
-	font-size: 0px !important;
-}
-
-#country::after{
-	font-size: 15px;
-	content: "Nazi Land";
-}
-
-span#hUp::before{
+.headTop .right::before{
 	content: "NG Evangelion is cool i guess...";
 	font: bold 13px monospace;
 	background-image: linear-gradient(cyan, magenta);
@@ -201,7 +182,7 @@ article {
 
 code {
 	color: orange;
-	background-color: rgba(0,0,0,.75);
+	background-color: rgba(0,0,0,.9);
 	display: block;
 	overflow-y: scroll;
 }

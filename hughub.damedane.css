@@ -1,0 +1,82 @@
+body {
+  color: LightGray;
+  background: #222;
+  font-family: sans-serif;
+}
+
+a {
+  color: white;
+}
+
+button, input, textarea{
+  border: none;
+  padding: 5px;
+  color: LightGray;
+  background-color: #333;
+  margin: 2px;
+}
+
+h1, h2, h3, h4, h5, #add, #remove, #sMsg, #block, #report{
+  color: white;
+}
+
+h4, .boxHead, .rightHead{
+  background-color: #333;
+  color: White;
+  padding: 1px;
+}
+
+.box{
+  background-color: #252525;
+  border: solid Gray 1px;
+  padding: 2px;
+}
+
+.tableLeft, .tableRight {
+  background-color: grey;
+  color: whitesmoke;
+}
+
+div.headTop, nav.links{
+  border: none !important;
+  padding: 5px !important;
+  color: LightGray!important;
+  background-color: #444!important;
+  margin: 2px !important;
+}
+
+audio {
+  filter: grayscale(100%) !important;
+}
+
+.tableRight img{
+  max-height: 256px;
+}
+
+#country::before {
+  content: "Made in ";
+}
+
+.rightBox img {
+  max-width: 35vw;
+}
+
+img[alt="tomboy-ad"] {
+  border-radius: 4px;
+  border: solid red 5px;
+  animation: blinkred infinite linear 1s alternate;
+}
+
+@keyframes blinkred {
+  from {
+    border-color: red;
+  }
+  to {
+    border-color: rgba(0,0,0,0);
+  }
+}
+
+.infotable *{
+  color: white !important;
+  background-color: #444 !important;
+}

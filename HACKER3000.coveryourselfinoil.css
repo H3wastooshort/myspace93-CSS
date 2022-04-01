@@ -1,3 +1,5 @@
+/* Yes this is the MS93 css with only slight modifications */
+
 *{
 	cursor: url(https://hacker3000.cf/outrun-cursor1.png), auto;
 	font-family: Consolas, Monospace, Arial;
@@ -26,20 +28,20 @@ button, input{
 	border: none;
 }
 
-div.heading{
-	background-color: rgba(0,0,0,0.5) !important;
+h4 {
+	background-color: rgba(0,0,0,0.5);
 	text-align: center;
 	color:Lime;
-}
-
-main {
-	background: rgba(0,0,0,0.1)
 }
 
 .boxHead, .rightHead{
 	background-color:black;
 	text-align: center;
 	color:Lime;
+}
+
+.blurbs{
+	color:green;
 }
 
 #userWall{
@@ -54,10 +56,16 @@ main {
 	color:Lime;
 }
 
-.left{
-	background-color: rgba(0,0,0,0.5);
+.tableLeft{
+	background-color:grey;
 	text-align: center;
-	color: lime;
+	color:green;
+}
+
+.player{
+	background-color:black;
+	text-align: center;
+	color:green;
 }
 
 #controlBar{
@@ -66,13 +74,16 @@ main {
 	color:green;
 }
 
-.box, .blurbs, .url-info, .table-section, .contact, .friends, footer, td, .blog-preview, .comments-table, .comment-replies{
-	background-color: rgba(0, 0, 0, 0.25) !important;
-	color:Lime !important;
-	border: black 1px !important;
+.box, .infotable td, .infotable th{
+	background-color: rgba(0, 0, 0, 0.3);
+	color: Lime;
 }
 
-div.top{
+.boxButton{
+	color:orange;
+}
+
+div.headTop{
 	background-image: url(https://64.media.tumblr.com/b2dbfb13a03b9efecdfebfcde1d948e4/tumblr_owngzpR9zU1vsjcxvo1_540.gifv);
 	background-color: black;
 	background-position: center;
@@ -80,16 +91,16 @@ div.top{
 	background-size: cover;
 }
 
-.links {
+nav.links{
 	background-color:black;
 	background-image: linear-gradient(cyan, magenta);
 	color:orange;
-	font-size: 0.95em;
 }
 
 textarea{
-	background-color:black;
-	color:green;
+	background-color: rgba(0,0,0,0.95);
+	color: limegreen;
+	border: solid black 1px;
 }
 
 body::after {
@@ -108,11 +119,58 @@ pointer-events: none;
 opacity: 0.1;
 }
 
+#report, #block{
+	position:relative;
+	display: none;
+}
+
+div.url.box a {
+	color: orange !important;
+}
+
+#country{
+	font-size: 0px !important;
+}
+
+#country::after{
+	font-size: 15px;
+	content: "Nazi Land";
+}
+
+span#hUp::before{
+	content: "NG Evangelion is cool i guess...";
+	font: bold 13px monospace;
+	background-image: linear-gradient(cyan, magenta);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), auto !important;
+}
+
+audio {
+	   filter: hue-rotate(111deg) blur(0.1px) !important;
+}
+
 img {
 	   filter: blur(0.42px);
 }
 
-.col.left::after { /* eyecancer */
+.url, .player {
+	border: none;
+}
+.extended h3 {
+	font-size: 0px;
+}
+
+.extended h3::after {
+	content: url(https://mvc.penguins.win/terminal.png);
+	filter: none;
+}
+
+img[src="https://mvc.penguins.win/red.png"] {
+	   filter: hue-rotate(220deg);
+}
+
+.userinfo::after { /* eyecancer */
 	content:
 		url(https://anlucas.neocities.org/site_best_viewed_with_monitor.gif)
 		url(https://anlucas.neocities.org/anydamn.gif)
@@ -136,16 +194,7 @@ img {
 		url(https://anlucas.neocities.org/vcss.gif);
 }
 
-@keyframes spinner {
- 0% {
-  transform: rotateY(0deg);
- }
-
- 100% {
-  transform: rotateY(360deg);
- }
-}
-
-.profile-pic {
-	animation: 3s linear infinite spinner;
+article {
+	text-align: justify;
+	background-color: rgba(0,0,0,0.75) !important;
 }

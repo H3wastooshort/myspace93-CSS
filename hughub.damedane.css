@@ -16,7 +16,7 @@ button, input, textarea{
   margin: 2px;
 }
 
-h1, h2, h3, h4, h5, #add, #remove, #sMsg, #block, #report{
+h1, h2, h3, h4, h5, .userBtn{
   color: white;
 }
 
@@ -32,9 +32,9 @@ h4, .boxHead, .rightHead{
   padding: 2px;
 }
 
-.tableLeft, .tableRight {
-  background-color: grey;
-  color: whitesmoke;
+.commentAuthor, .commentContent {
+  background-color: grey !important;
+  color: whitesmoke !important;
 }
 
 div.headTop, nav.links{
@@ -49,11 +49,11 @@ audio {
   filter: grayscale(100%) !important;
 }
 
-.tableRight img{
-  max-height: 256px;
+.commentAuthor img{
+  filter: grayscale(50%);
 }
 
-#country::before {
+.country::before {
   content: "Made in ";
 }
 

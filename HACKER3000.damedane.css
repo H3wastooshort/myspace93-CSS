@@ -157,7 +157,7 @@ img[src="https://mvc.penguins.win/red.png"] {
 		url(https://anlucas.neocities.org/anydamn.gif)
 		url(https://anlucas.neocities.org/elec_but.gif)
 		url(https://anlucas.neocities.org/apocalypse_now.gif)
-		url(https://anlucas.neocities.org/emulate.gif)
+		url(https://88by31.neocities.org/games/hl.gif)
 		url(https://88by31.neocities.org/web/firefox.gif)
 		url(https://anlucas.neocities.org/getacomp.jpg)
 		url(https://anlucas.neocities.org/hatemac.jpg)
@@ -189,7 +189,12 @@ img[src="https://mvc.penguins.win/red.png"] {
 		url(https://88by31.neocities.org/web/neocities-pink.gif)
 		url(https://88by31.neocities.org/pride/trn.png)
 		url(https://88by31.neocities.org/anime/nerv.png)
+		url(https://88by31.neocities.org/games/scp.png)
+		url(https://88by31.neocities.org/games/spamtombutton.gif)
+		url(https://88by31.neocities.org/games/kromer.gif)
+		url(https://88by31.neocities.org/awareness/right2repair.png)
 		;
+	image-rendering: pixelated;
 }
 
 article {
@@ -202,4 +207,18 @@ code {
 	background-color: rgba(0,0,0,.9);
 	display: block;
 	overflow-y: scroll;
+}
+
+.gato {
+	border: none;
+	background: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	pointer-events: none;
 }

@@ -158,7 +158,7 @@ img[src="https://mvc.penguins.win/red.png"] {
 		url(https://anlucas.neocities.org/elec_but.gif)
 		url(https://anlucas.neocities.org/apocalypse_now.gif)
 		url(https://88by31.neocities.org/games/hl.gif)
-		url(https://88by31.neocities.org/web/firefox.gif)
+		url(https://files.catbox.moe/gb7r5b.gif)
 		url(https://anlucas.neocities.org/getacomp.jpg)
 		url(https://anlucas.neocities.org/hatemac.jpg)
 		url(https://anlucas.neocities.org/hatems.jpg)
@@ -222,3 +222,17 @@ code {
 	z-index: 100;
 	pointer-events: none;
 }
+
+@media (min-width: 768px) {
+	#main-content {
+		transform: translateY(20px);
+	}
+  .siteHead {
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+		z-index: 10;
+  }
+}
+

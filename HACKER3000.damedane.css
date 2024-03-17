@@ -7,6 +7,7 @@
 
 *{
 	font-family: Consolas, Monospace;
+	image-rendering: optimizequality;
 }
 
 body{
@@ -18,6 +19,7 @@ body{
 	background-size: cover;
 	text-align: center;
 	color:var(--minty);
+	image-rendering: pixelated;
 }
 
 a{
@@ -74,7 +76,7 @@ h4 {
 	color:var(--minty-dark);
 }
 
-.box, .infotable td, .infotable th {
+.box, .infotable td, .infotable th, .autoplaynotice {
 	background-color: rgba(0, 0, 0, 0.3);
 	color: var(--minty);
 	border: 1px solid black;

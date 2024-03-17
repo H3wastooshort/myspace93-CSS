@@ -117,14 +117,11 @@ img {
 .url, .player {
 	border: none;
 }
-.extended h3 {
-	font-size: 0px;
-}
 
-.extended h3::after {
+/*.extended h3::after {
 	content: url(https://mvc.penguins.win/terminal.png);
 	filter: none;
-}
+}*/
 
 img[src="https://mvc.penguins.win/red.png"] {
 	   filter: hue-rotate(220deg);
@@ -153,7 +150,7 @@ img[src="https://mvc.penguins.win/red.png"] {
 		url(https://anlucas.neocities.org/aol_sucks02.gif)
 		url(https://anlucas.neocities.org/neocities_button.gif)
 		url(https://cvrsed.neocities.org/button1.gif)
-		url(https://hacker3000.cf/buttons/H3_button_88x31.gif)
+		url(https://h3.neocities.org/buttons/H3%2088x31%20rev3.png)
 		url(https://88by31.neocities.org/anime/thirdimpact.png)
 		url(https://88by31.neocities.org/web/neocitiesbutton1.gif)
 		url(https://88by31.neocities.org/web/delete_instagram.gif)

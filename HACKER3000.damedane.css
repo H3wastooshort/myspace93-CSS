@@ -1,29 +1,31 @@
 /* Yes this is the MS93 css with only slight modifications */
 
+:root {
+  --minty: #03fcb1;
+	--minty-dark: #03fcb1;
+}
+
 *{
-	cursor: url(https://hacker3000.cf/outrun-cursor1.png), auto;
-	font-family: Consolas, Monospace, Arial;
+	font-family: Consolas, Monospace;
 }
 
 body{
 	background-color:black;
-	background-image:url(https://hacker3000.cf/background.png);
+	background-image:url(https://h3.neocities.org/dith-nge-antenna-f.png);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
-	color:Lime;
+	color:var(--minty);
 }
 
 a{
 	color:magenta;
-	cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;
 }
 
 button, input{
 	color:magenta;
-	cursor: url(https://hacker3000.cf/outrun-cursor2.png), auto;
 	background-color: rgba(0.1, 0.1, 0.1, 0.5);
 	border: none;
 }
@@ -31,23 +33,23 @@ button, input{
 h4 {
 	background-color: rgba(0,0,0,0.5);
 	text-align: center;
-	color:Lime;
+	color: var(--minty);
 }
 
 .boxHead, .rightHead{
 	background-color:black;
 	text-align: center;
-	color:Lime;
+	color: var(--minty);
 }
 
 .blurbs{
-	color:green;
+	color:var(--minty-dark);
 }
 
 #userWall{
 	background-color:black;
 	text-align: center;
-	color:Lime;
+	color:var(--minty);
 }
 
 .commentAuthor,.commentContent {
@@ -57,24 +59,24 @@ h4 {
 .commentContent {
 	background-color: rgba(0,0,0,.75) !important;
 	text-align: center !important;
-	color:Lime !important;
+	color:var(--minty) !important;
 }
 
 .commentAuthor {
 	background-color: rgba(0,0,0,.5) !important;
 	text-align: center !important;
-	color:green !important;
+	color: var(--minty-dark) !important;
 }
 
 .player{
 	background-color:black;
 	text-align: center;
-	color:green;
+	color:var(--minty-dark);
 }
 
 .box, .infotable td, .infotable th {
 	background-color: rgba(0, 0, 0, 0.3);
-	color: Lime;
+	color: var(--minty);
 	border: 1px solid black;
 }
 
@@ -98,33 +100,8 @@ nav.links{
 
 textarea{
 	background-color: rgba(0,0,0,0.95);
-	color: limegreen;
+	color: var(--minty);
 	border: solid black 1px;
-}
-
-body::after {
-content: "";
-display: block;
-position: fixed;
-left: -48px;
-top: -48px;
-width: calc(100% + 48px);
-height: calc(100% + 48px);
-background-image: url(https://assets.bigcartel.com/theme_images/39406789/stattico.gif);
-background-position: 0 0;
-background-size: cover;
-z-index: 10000000;
-pointer-events: none;
-opacity: 0.1;
-}
-
-.headTop .right::before{
-	content: "NG Evangelion is cool i guess...";
-	font: bold 13px monospace;
-	background-image: linear-gradient(cyan, magenta);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	cursor: url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), url(https://cur.cursors-4u.net/anime/ani-10/ani928.cur), auto !important;
 }
 
 audio {
@@ -236,3 +213,8 @@ code {
   }
 }
 
+.trackeriframe {
+	width: 100%;
+	border: black 1px solid;
+	height: 500px;
+}

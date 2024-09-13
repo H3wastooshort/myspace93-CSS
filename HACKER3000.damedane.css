@@ -212,8 +212,7 @@ code {
   }
 }
 
-.trackeriframe {
+#infobottom iframe {
 	width: 100%;
 	border: black 1px solid;
-	height: 500px;
 }

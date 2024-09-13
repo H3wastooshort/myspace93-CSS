@@ -215,9 +215,7 @@ code {
 #infobottom iframe {
 	width: 100%;
 	border: black 1px solid;
-	height: auto;
 }
-
-#infobottom .16_9_embed {
-	aspect-ratio: 16/9;
+iframe[title="YouTube video player"] {
+	aspect-ratio: 16/9 !important;
 }
